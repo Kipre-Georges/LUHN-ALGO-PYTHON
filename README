@@ -1,0 +1,37 @@
+# User Guide - Credit Card Validator
+
+Welcome to the Credit Card Validator User Guide. This tool allows you to validate 16-digit credit card numbers according to the Luhn Algorithm. 
+
+## Getting Started 
+
+1. **Installation**: Make sure you have installed Python (version 3.6 or newer) on your system. You also need the Colorama library (version 0.4.0 or newer). If you haven't installed it yet, you can install it by running `pip install colorama`.
+
+2. **Download**: Clone the repository to your local machine using git:
+
+```
+git clone https://github.com/username/repository.git
+```
+
+Make sure to replace "username" and "repository" with the actual GitHub username and repository name.
+
+## How to Use
+
+Here are the steps to validate a credit card number:
+
+1. Navigate to the repository directory on your machine.
+
+2. Run the program with the following command: 
+
+```
+python main.py
+```
+
+3. When prompted, enter a 16-digit credit card number.
+
+The program will then display a message indicating whether the entered number is a valid credit card number according to the Luhn Algorithm. 
+
+Remember: this validation does not mean that the credit card is real or active. It only checks if the number could be valid according to the Luhn Algorithm.
+
+---
+
+Please replace the placeholders with your actual information, and feel free to expand the guide if there are more specific or complex features in your program that users need to know about.
